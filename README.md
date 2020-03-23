@@ -1,27 +1,33 @@
+# BMI Calculator
 
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
+## Table of Contents
+1. [Overview](#Overview)
+2. [Product Spec](#Product-Spec)
+3. [App Walkthrough](#App-Walkthrough)
+4. [Open-Source libraries used](#Open-Source-libraries-used)
+5. [Credits](#Credits)
 
-#  BMI Calculator
+## Overview
+### Description
 
-## Our Goal
+BMI Calculator is a Body Mass Index calculator. Based on the user’s weight and height it will calculate their body mass and give a piece of health advice depending on whether if they have eaten too many pies or if they need to eat more pies.
 
-The goal of this tutorial is to learn more about Optionals, solidify your understanding of the MVC design pattern and to introduce the concept of Classes. We’ll compare objects created from classes with instances of Structs that we learnt about earlier. 
+## Product Spec
+### User Stories
 
-## What you will create
+- [ ] User shall be able to set their height and weight.
+- [ ] User shall be able to calculate their BMI with their height and weight.
 
-By the end of the module, you will have made a Body Mass Index calculator. Based on the user’s weight and height it will calculate their body mass and give a piece of health advice depending on whether if they have eaten too many pies or if they need to eat more pies. 
+## App Walkthrough
 
-## What you will learn
+Here's a GIF of how the app works:
 
-* How to create multi-screen apps with animated navigation.
-* Optional binding, optional chaining and the nil coalescing operator.
-* How to create classes and difference between classes and structs. 
-* Pass by value vs. pass by reference. 
-* Formatting Strings. 
-* Color literals.
+<img src="ADD_GIF_LINK" width=250><br>
 
+## Open-source libraries used
 
+- [LIBRARY NAME](ADD_SOURCE_LINK_HERE) - Add a description here.
 
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+## Credits
 
-![End Banner](Documentation/readme-end-banner.png)
+>This is a companion project to The App Brewery's Complete App Developement Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
