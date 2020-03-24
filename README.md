@@ -22,7 +22,7 @@ BMI Calculator is a Body Mass Index calculator. Based on the user’s weight and
 
 Here's a GIF of how the app works:
 
-<img src="ADD_GIF_LINK" width=250><br>
+<img src="https://i.imgur.com/fDMauPN.gif" width=250><br>
 
 ## Credits
 
