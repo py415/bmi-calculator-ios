@@ -4,8 +4,7 @@
 1. [Overview](#Overview)
 2. [Product Spec](#Product-Spec)
 3. [App Walkthrough](#App-Walkthrough)
-4. [Open-Source libraries used](#Open-Source-libraries-used)
-5. [Credits](#Credits)
+4. [Credits](#Credits)
 
 ## Overview
 ### Description
@@ -15,18 +14,15 @@ BMI Calculator is a Body Mass Index calculator. Based on the user’s weight and
 ## Product Spec
 ### User Stories
 
-- [ ] User shall be able to set their height and weight.
-- [ ] User shall be able to calculate their BMI with their height and weight.
+- [X] User shall be able to set their height and weight.
+- [X] User shall be able to calculate their BMI with their height and weight.
+- [X] User shall be able to recalculate their BMI.
 
 ## App Walkthrough
 
 Here's a GIF of how the app works:
 
 <img src="ADD_GIF_LINK" width=250><br>
-
-## Open-source libraries used
-
-- [LIBRARY NAME](ADD_SOURCE_LINK_HERE) - Add a description here.
 
 ## Credits
 
