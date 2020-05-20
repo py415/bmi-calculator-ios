@@ -10,20 +10,33 @@ import UIKit
 
 class CalculateViewController: UIViewController {
     
-    // Outlets
+    // MARK: - Outlets
     @IBOutlet weak var heightLabel: UILabel!
     @IBOutlet weak var weightLabel: UILabel!
     @IBOutlet weak var heightSlider: UISlider!
     @IBOutlet weak var weightSlider: UISlider!
     
-    // Properties
-    var calculatorBrain = CalculatorBrain()
+    // MARK: - Properties
+    private var calculatorBrain = CalculatorBrain()
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
         
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "goToResult" {
+            let destinationVC = segue.destination as! ResultViewController
+            destinationVC.bmiValue = calculatorBrain.getBMIValue()
+            destinationVC.advice = calculatorBrain.getAdvice()
+            destinationVC.color = calculatorBrain.getColor()
+        }
+        
+    }
+    
+    // MARK: - IBAction Section
     
     @IBAction func heightSliderChanged(_ sender: UISlider) {
         
@@ -46,17 +59,6 @@ class CalculateViewController: UIViewController {
         
         // Segue into ResultViewController
         self.performSegue(withIdentifier: "goToResult", sender: self)
-        
-    }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
-        if segue.identifier == "goToResult" {
-            let destinationVC = segue.destination as! ResultViewController
-            destinationVC.bmiValue = calculatorBrain.getBMIValue()
-            destinationVC.advice = calculatorBrain.getAdvice()
-            destinationVC.color = calculatorBrain.getColor()
-        }
         
     }
     

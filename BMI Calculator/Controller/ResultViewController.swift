@@ -10,11 +10,11 @@ import UIKit
 
 class ResultViewController: UIViewController {
 
-    // Outlets
+    // MARK: - Outlets
     @IBOutlet weak var bmiLabel: UILabel!
     @IBOutlet weak var adviceLabel: UILabel!
     
-    // Properties
+    // MARK: - Properties
     var bmiValue: String?
     var advice: String?
     var color: UIColor?
@@ -28,6 +28,8 @@ class ResultViewController: UIViewController {
         view.backgroundColor = color
 
     }
+    
+    // MARK: - IBAction Section
     
     @IBAction func recalculatePressed(_ sender: UIButton) {
         

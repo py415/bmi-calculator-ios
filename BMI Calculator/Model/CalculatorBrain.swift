@@ -10,8 +10,8 @@ import UIKit
 
 struct CalculatorBrain {
     
-    // Properties
-    var bmi: BMI?
+    // MARK: - Properties
+    private var bmi: BMI?
     
     mutating func calculateBMI(height: Float, weight: Float) {
         
